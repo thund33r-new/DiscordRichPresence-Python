@@ -22,6 +22,6 @@ async def on_ready():
 			url = "https://www.twitch.tv/404%27"
 			)
 		)
-	print(f'Селфбот успешно запущен на аккаунте {client.user}!')
+	print(f'Селфбот успешно запущен на аккаунте {bot.user}!')
 
 bot.run(token, bot = False)
